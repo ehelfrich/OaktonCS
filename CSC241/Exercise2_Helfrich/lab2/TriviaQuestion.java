@@ -4,6 +4,9 @@
 // Provides trivia question objects.
 //----------------------------------------------------------------------------
 
+//import ch02.stringLogs.*;
+package lab2;
+
 public class TriviaQuestion
 {
   private String category;             // category of question
@@ -17,7 +20,7 @@ public class TriviaQuestion
 	this.question = question;
     this.category = category;
 
-	 answers = new ArrayStringLog("trivia", maxNumAnswers);
+	 answers = new LinkedStringLog("trivia");
   }
 
   public String getCategory()

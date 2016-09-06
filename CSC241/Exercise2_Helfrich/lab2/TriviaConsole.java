@@ -4,6 +4,7 @@
 // Allows the user to play a trivia game.
 // Uses a Console interface.
 //----------------------------------------------------------------------
+package lab2;
 import java.io.*;
 
 import java.util.Scanner;
@@ -12,7 +13,6 @@ public class TriviaConsole
 {
   public static void main(String[] args) throws IOException
   {
-    @SuppressWarnings("resource")
 	Scanner conIn = new Scanner(System.in);
 
 	 TriviaGame game;    // the trivia game

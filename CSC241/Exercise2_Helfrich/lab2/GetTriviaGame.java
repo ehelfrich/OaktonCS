@@ -8,6 +8,7 @@
 //       other options could be added later.
 //----------------------------------------------------------------------------
 
+package lab2;
 import java.util.*;
 import java.io.*;
 
@@ -30,8 +31,8 @@ public class GetTriviaGame
     int numAnswers;
 
     FileReader fin = new FileReader(textfile);
-    Scanner triviaIn = new Scanner(fin);
-    String skip;        // skip end of line after reading integer
+	Scanner triviaIn = new Scanner(fin);
+	String skip;        // skip end of line after reading integer
 
     // Scan in basic trivia quiz information and set variables.
     quizName = triviaIn.nextLine();

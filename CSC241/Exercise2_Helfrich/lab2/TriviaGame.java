@@ -1,10 +1,10 @@
-
 //----------------------------------------------------------------------------
 // TriviaGame.java             by Dale/Joyce/Weems                   Chapter 2
 //
 // Provides trivia game objects.
 //----------------------------------------------------------------------------
 
+package lab2;
 public class TriviaGame
 {
   private String quizName;

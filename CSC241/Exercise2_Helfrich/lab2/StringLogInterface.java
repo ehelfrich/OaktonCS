@@ -7,6 +7,7 @@
 // A log must have a "name".
 //----------------------------------------------------------------------
 
+package lab2;
 
 public interface StringLogInterface
 {
