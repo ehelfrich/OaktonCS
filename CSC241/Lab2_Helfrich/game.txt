@@ -1,6 +1,6 @@
 Eric Helfrich's Random Trivia
-5
-7
+9
+15
 Geography
 What is the largest (land area) lake in the world?
 2
@@ -25,3 +25,25 @@ Biology
 What pigment gives carrots their color?
 1
 carotene
+Geography
+What is the capital of the Sultanate of Oman?
+1
+Muscat
+European Politics
+What country has voted to leave the EU as of 2016?
+6
+Britain
+Great Britain
+UK
+United Kingdom
+The United Kingdom
+The United Kingdom of Great Britain and Northern Ireland
+Sports
+What MLB team last won a world series in 1908?
+2
+cubs
+chicago cubs
+History
+What is the English equivalent for the Cyrillic acronym CCCP?
+1
+USSR

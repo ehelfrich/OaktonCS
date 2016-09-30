@@ -1,0 +1,16 @@
+This is the output file for #23ab using recursion
+number of paths 1: 1
+number of paths 2: 2
+number of paths 3: 6
+number of paths 4: 20
+number of paths 5: 70
+number of paths 6: 252
+number of paths 7: 924
+number of paths 8: 3432
+number of paths 9: 12870
+number of paths 10: 48620
+number of paths 11: 184756
+number of paths 12: 705432
+number of paths 13: 2704156
+number of paths 14: 10400600
+number of paths 15: 40116600

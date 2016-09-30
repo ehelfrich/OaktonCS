@@ -1,0 +1,1 @@
+46d. Part a has a big O notation of O(1) since it has no loops. Part b has a O notation of O(N) because when it executes it has loop inside the method.  Part c has a big O notation of O(1) since it only returns one value every time it executes.  When looking at the sizeIs method, part C has a better big 0 compared to part B.  
