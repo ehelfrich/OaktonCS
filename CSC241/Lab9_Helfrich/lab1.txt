@@ -1,0 +1,1 @@
+I placed a counter in the swap method.  Everytime the swap method is called the counter is increased by 1.
