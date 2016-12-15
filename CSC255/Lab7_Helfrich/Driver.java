@@ -14,7 +14,7 @@ public class Driver {
 		 * Checks to see if user wants to use the clear screen function
 		 */
 		System.out.println("Would you like this program to clear the prompt? (y/n)");
-		System.out.println("***note this method uses ANSI Escape Codes and Does not work in IDEs***");
+		System.out.println("***note this method uses ANSI Escape Codes and does not work in IDEs***");
 		while (loopFlag) {
 
 			programInput = conIn.nextLine();
@@ -32,6 +32,8 @@ public class Driver {
 		}
 
 		System.out.println("Welcome to the MAXIT game!!!!");
+		System.out.println("Rules:\nA player must chose a cell in the same row or column as the last picked cell"
+				+ "\nThe game ends when there are no more choices in the current row or column");
 		System.out.println("Enter the table size for the game: ");
 		gridSize = conIn.nextInt();
 		GameGrid game = new GameGrid(gridSize);
@@ -48,7 +50,7 @@ public class Driver {
 			if (osBool) {
 				Clear.clearScreen();
 			}
-
+			System.out.println("The scores are:\nPlayer 1: " + game.getScore(1) + "\nPlayer2: " + game.getScore(2));
 			System.out.println("Player 1's Turn");
 			System.out.println(game);
 			System.out.println("The current Row is " + game.getCurrentRow() + "\nand the current Column is "
